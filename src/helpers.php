@@ -1,12 +1,14 @@
 <?php
 
+use Illuminate\Support\Number;
+
 if (! function_exists('toHumanReadableNumber')) {
     /**
      * Convert a number to a human-readable version
      */
     function toHumanReadableNumber(int $number): string
     {
-        return \Illuminate\Support\Number::format($number);
+        return Number::format($number);
     }
 }
 
@@ -20,6 +22,6 @@ if (! function_exists('toHumanReadablePercentage')) {
             return 'Infinity%';
         }
 
-        return \Illuminate\Support\Number::percentage($part / $total * 100, 0, 1);
+        return Number::percentage($part / $total * 100, 0, 1);
     }
 }
