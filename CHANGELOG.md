@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-27 - Laravel 12 en 13
+
+- Ondersteuning voor Laravel 12 en 13 (`illuminate/contracts` ^11 || ^12 || ^13), daarmee ook Livewire 4 via laravel/pulse 1.8
+- Dev-tooling bijgewerkt: Testbench 9/10/11, Pest 3/4, Larastan 3 met PHPStan 2
+- CI test nu PHP 8.3 en 8.4 tegen Laravel 11, 12 en 13
+
 ## 2026-02-04 10:53 - Composer Security Update (Automated)
 
 - Security vulnerabilities opgelost via composer update --with-all-dependencies
