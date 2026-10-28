@@ -24,7 +24,10 @@ class PanPhpAnalyticsCardComponent extends Card
             default => $analytics->orderByDesc('impressions')
         };
 
-        return view('pulse-panphp::livewire.panphp-analytics', [
+        /** @var view-string $view */
+        $view = 'pulse-panphp::livewire.panphp-analytics';
+
+        return view($view, [
             'analytics' => $analytics->get(),
         ]);
     }
