@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1 - 2026-10-28
+
+PHPStan: viewnaam geannoteerd als view-string, geen functionele wijziging.
+
 ## 0.1.0 - 2026-10-28
 
 Ondersteuning voor Laravel 12 en 13 (naast 11). Testbench 9/10/11, Pest 3/4, Larastan 3 en PHPStan 2. CI-matrix draait PHP 8.3/8.4 tegen Laravel 11, 12 en 13.
